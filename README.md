@@ -4,7 +4,7 @@ Contains a set of examples created to demonstrate the
 interoperation of Chapel and MPI.
 
 We currently have three examples :
-  * Ring (WIP)
+  * Ring 
   * FFTW
   * ScaLAPACK (WIP)
   

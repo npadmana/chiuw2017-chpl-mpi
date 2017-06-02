@@ -1,5 +1,10 @@
 use BlockCycDist;
 use SysCTypes;
+use MPI;
+
+require "mkl_cblas.h";
+require "mkl_blas.h";
+require "mkl_scalapack.h";
 
 config const debug=true;
 
@@ -55,6 +60,10 @@ if debug {
     }
 }
 
+// Start to setup
+var icon: c_int;
+Cblacs_get(-1, 0, icon);
+
 
 
 
@@ -73,3 +82,7 @@ proc getLocalElts(A) {
   var elt = c_ptrTo(A[dom1.low]);
   return (elt, cnt);
 }
+
+
+/* Extern definitions */
+extern proc Cblacs_get( context : c_int, request : c_int, ref value: c_int);
