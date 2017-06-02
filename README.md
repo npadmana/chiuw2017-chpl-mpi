@@ -6,6 +6,6 @@ interoperation of Chapel and MPI.
 We currently have three examples :
   * Ring (WIP)
   * FFTW
-  * ScaLAPACK
+  * ScaLAPACK (WIP)
   
 
