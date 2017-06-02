@@ -4,9 +4,7 @@
   This primer demonstrates the interop between Chapel and
   the distributed FFTW libraries.
 
- */
-
-/* The MPI module automatically initializes MPI, if it isn't
+  The MPI module automatically initializes MPI, if it isn't
    already initialized. The C-API to MPI-1 is in the submodule
    C_MPI; we include it here for convenience when making any MPI
    calls.
