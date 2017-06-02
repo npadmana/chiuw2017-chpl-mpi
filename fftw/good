@@ -1,0 +1,13 @@
+Hello Brad! This is Multilocale Chapel running with MPI
+Chapel is running with 4 locales
+This is MPI rank 0 of size 4 
+This is MPI rank 1 of size 4 
+This is MPI rank 2 of size 4 
+This is MPI rank 3 of size 4 
+Total sum A=1.047358e+06, sum A^2 = 6.978228e+05 
+Element at k=(0,0,0) = 1.047358e+06 
+Error = 6.217249e-15 
+Imaginary component (expected=0) : 0.000000e+00 
+Total sum B^2 = 6.978228e+05 , error= 7.771561e-15
+Max diff = 1.110223e-15
+Goodbye, Brad! I hope you enjoyed this distributed FFTW example
